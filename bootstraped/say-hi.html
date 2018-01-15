@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <title>Say Hi to Kelvin</title>
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <style>
+      .w-100{
+        height: 70vh;
+      }
+      img {
+        height: auto;
+        width: auto;
+      }
+      .row img {
+        height: 200px;
+      }
+      #navbarNavAltMarkup {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+      }
+      .jumbotron {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        background: url(images/django-girls-ph.jpg);
+        background-size: cover;
+        backface-visibility: visible;
+        color: white;
+      }
+      .jumbotron a {
+        bottom: 0;
+      }
+      .arrow-down {
+        width: 24px;
+        height: 24px;
+        animation-name: bounce;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+      .col-sm-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .col-sm-4 img {
+        width: 60px;
+        height: 60px;
+      }
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-15px);
+        }
+        60% {
+          transform: translateY(-15px);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">
+        <p>Kelvin Gobo</p>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Blog</a>
+          <a class="nav-item nav-link" href="#">About me</a>
+          <a class="nav-item nav-link" href="say-hi.html">Say Hi</a>
+        </div>
+      </div>
+    </nav>
+
+
+
+      <br>
+
+      <div class="row bg-dark text-white">
+        <div class="col-sm-4">
+          <p>Sitemap</p>
+          <ul class="list-unstyled text-secondary">
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About me</li>
+            <li>Say Hi</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <p>Get in touch with moi</p>
+          <p class="text-secondary">Address here, social media, etc</p>
+        </div>
+        <div class="col-sm-4">
+          <p>Useful links</p>
+          <ul class="list-unstyled text-secondary">
+            <li>resource 1</li>
+            <li>resource 2</li>
+            <li>resource 3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
